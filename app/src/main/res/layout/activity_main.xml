@@ -6,7 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:orientation="vertical"
-        android:background="@color/gray" android:paddingTop="10pt">
+        android:background="@color/gray"
+         >
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -16,17 +17,22 @@
             android:background="@color/gray" android:textColor="@color/white" android:textSize="40sp"
             android:layout_weight="1"/>
     <TableLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow
+                android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_marginBottom="1pt">
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="AC"
                     android:layout_width="30pt"
                     android:layout_height="30pt" android:id="@+id/button10" android:background="@color/whiteback"
                     android:textSize="18sp"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="+/-"
                     android:textSize="18sp"
@@ -34,6 +40,7 @@
                     android:layout_height="30pt" android:id="@+id/buplusminus" android:background="@color/whiteback"
                     android:onClick="buNumberEvent"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="%"
                     android:textSize="18sp"
@@ -48,8 +55,10 @@
                     android:textColor="@color/white" android:onClick="buOpEvent"/>
 
         </TableRow>
-        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_marginBottom="1pt">
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="7"
                     android:textSize="18sp"
@@ -57,6 +66,7 @@
                     android:layout_height="30pt" android:id="@+id/bu7" android:background="@color/whiteback"
                     android:onClick="buNumberEvent"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="8"
                     android:textSize="18sp"
@@ -64,6 +74,7 @@
                     android:layout_height="30pt" android:id="@+id/bu8" android:background="@color/whiteback"
                     android:onClick="buNumberEvent"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="9"
                     android:textSize="18sp"
@@ -78,8 +89,10 @@
                     android:layout_height="30pt" android:id="@+id/buMul" android:background="@color/buop"
                     android:textColor="@color/white" android:onClick="buOpEvent"/>
         </TableRow>
-        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_marginBottom="1pt">
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="4"
                     android:textSize="18sp"
@@ -87,6 +100,7 @@
                     android:layout_height="30pt" android:id="@+id/bu4" android:background="@color/whiteback"
                     android:onClick="buNumberEvent"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="5"
                     android:textSize="18sp"
@@ -94,6 +108,7 @@
                     android:layout_height="30pt" android:id="@+id/bu5" android:background="@color/whiteback"
                     android:onClick="buNumberEvent"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="6"
                     android:textSize="18sp"
@@ -108,8 +123,10 @@
                     android:layout_height="30pt" android:id="@+id/buSub" android:background="@color/buop"
                     android:textColor="@color/white" android:onClick="buOpEvent"/>
         </TableRow>
-        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_marginBottom="1pt">
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="1"
                     android:textSize="18sp"
@@ -117,6 +134,7 @@
                     android:layout_height="30pt" android:id="@+id/bu1" android:background="@color/whiteback"
                     android:onClick="buNumberEvent"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="2"
                     android:textSize="18sp"
@@ -124,6 +142,7 @@
                     android:layout_height="30pt" android:id="@+id/bu2" android:background="@color/whiteback"
                     android:onClick="buNumberEvent"/>
             <Button
+                    android:layout_marginRight="1pt"
                     android:layout_weight="1"
                     android:text="3"
                     android:textSize="18sp"
@@ -144,12 +163,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <Button
+                android:layout_marginRight="1pt"
                 android:text="0"
                 android:textSize="18sp"
                 android:layout_width="60pt"
                 android:layout_height="30pt" android:id="@+id/bu0" android:layout_weight="2"
                 android:background="@color/whiteback" android:onClick="buNumberEvent"/>
         <Button
+                android:layout_marginRight="1pt"
                 android:text="."
                 android:textSize="18sp"
                 android:layout_width="30pt"
