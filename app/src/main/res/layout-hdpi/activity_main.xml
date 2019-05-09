@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:orientation="vertical"
         android:background="@color/gray"
-         >
+>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
             android:ems="10"
             android:id="@+id/editShowNumber" android:gravity="right" android:paddingTop="10pt"
             android:background="@color/gray" android:textColor="@color/white" android:textSize="40sp"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
     <TableLayout
 
             android:layout_width="match_parent"
@@ -23,7 +23,7 @@
 
         <TableRow
                 android:layout_width="match_parent" android:layout_height="match_parent"
-        android:layout_marginBottom="1pt">
+                android:layout_marginBottom="1pt">
             <Button
                     android:layout_marginRight="1pt"
                     android:layout_weight="1"

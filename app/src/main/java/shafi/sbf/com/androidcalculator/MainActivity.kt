@@ -112,4 +112,13 @@ class MainActivity : AppCompatActivity() {
         editShowNumber.setText(finalNumber.toString())
         isNewOp=true
     }
+    fun buPersentEvent(view: View){
+        val number:Double = editShowNumber.text.toString().toDouble()/100
+        editShowNumber.setText(number.toString()+"%")
+        isNewOp = true
+    }
+    fun buCleanEvent (view: View){
+        editShowNumber.setText("0")
+        isNewOp = true
+    }
 }
